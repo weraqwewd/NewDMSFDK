@@ -45,10 +45,10 @@ const LoginPage = () => {
             ግባ
           </Link>
           <br />
-          <div className="mt-6">
+          <div className="mt-6 flex justify-center items-center  ">
             <Link
               to="/signup"
-              className="items-center bg-green-500 text-xl px-10 rounded-3xl text-white "
+              className="items-center  bg-green-500 text-xl px-10  rounded-3xl text-white "
             >
               መለያ ይጠይቁ
             </Link>

@@ -14,7 +14,7 @@ const HomePage = () => {
       <div className="flex-col flex justify-center items-center mt-10 gap-10">
         <Link
           to="/food"
-          className="items-center text-center bg-blue-500 text-2xl px-10 rounded-3xl text-white mx-[120px] w-[500px]"
+          className="items-center text-center bg-green-500 text-2xl px-10 rounded-3xl text-white mx-[120px] w-[250px]"
         >
           ምግብ መረጃ
         </Link>
