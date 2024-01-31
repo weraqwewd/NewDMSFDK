@@ -9,7 +9,7 @@ const BloodGlucoseReport = () => {
   return (
     <div className="flex-col">
       <div className="h-96 bg-orange-400 rounded-b-[50%] flex justify-center items-center">
-        <h1 className="text-5xl text-white text-center">
+        <h1 className="text-2xl text-white text-center">
           የደም ውስጥ የግሉኮስ መጠን ሪፖርት
         </h1>
         <FaSyringe className="text-green-500 my-48 skew-icon " size={50} />

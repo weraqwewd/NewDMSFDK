@@ -9,7 +9,7 @@ const InsulinDosageReport = () => {
   return (
     <div className="flex-col">
       <div className="h-96 bg-orange-400 rounded-b-[50%] flex justify-center items-center">
-        <h1 className="text-5xl text-white text-center">የኢንሱሊን አጠቃቀም ሪፖርት</h1>
+        <h1 className="text-2xl text-white text-center">የኢንሱሊን አጠቃቀም ሪፖርት</h1>
         <FaSyringe
           className="text-green-500 my-48 skew-icon ml-6 mb-4"
           size={50}
@@ -17,7 +17,7 @@ const InsulinDosageReport = () => {
       </div>
       <div className="flex-1">
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             የጀመረበትን ቀን
           </label>
           <input
@@ -28,7 +28,7 @@ const InsulinDosageReport = () => {
           />
         </div>
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             የማጠናቀቂያ ቀን
           </label>
           <input
@@ -43,7 +43,7 @@ const InsulinDosageReport = () => {
         <div className="flex  justify-center items-center mx-auto ">
           <div className="mt-7 ">
             <button
-              className="items-center bg-green-500 text-5xl px-10 rounded-3xl text-white mx-[120px]"
+              className="items-center bg-green-500 text-2xl px-10 rounded-3xl text-white mx-[120px]"
               onClick={togglePopup}
             >
               ሪፖርት ያግኙ
