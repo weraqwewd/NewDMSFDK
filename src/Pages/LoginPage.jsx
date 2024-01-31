@@ -14,18 +14,18 @@ const LoginPage = () => {
       <div className="flex-col flex-1 mt-11">
         <h1 className="text-gray-500 text-3xl mx-12">መረጃ መለያ</h1>
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             ኢሜይል
           </label>
           <input
-            type="text"
+            type="email"
             id="childName"
             className="ml-5 h-10"
             name="childName"
           />
         </div>
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             የይለፍ ቃል
           </label>
           <input
@@ -40,7 +40,7 @@ const LoginPage = () => {
         <div className="mt-7 ">
           <Link
             to="/Home"
-            className="items-center bg-green-500 text-5xl px-10 rounded-3xl text-white mx-[120px] "
+            className="items-center bg-green-500 text-xl px-10 rounded-3xl text-white mx-[120px] "
           >
             ግባ
           </Link>
@@ -48,9 +48,9 @@ const LoginPage = () => {
           <div className="mt-6">
             <Link
               to="/signup"
-              className="items-center bg-green-500 text-5xl px-10 rounded-3xl text-white "
+              className="items-center bg-green-500 text-xl px-10 rounded-3xl text-white "
             >
-              አዲስ መለያ ይጠይቁ
+              መለያ ይጠይቁ
             </Link>
           </div>
         </div>

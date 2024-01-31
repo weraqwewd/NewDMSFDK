@@ -8,7 +8,7 @@ const ParentRegistration = () => {
       </div>
       <div className="flex-1 justify-center items-center mt-24 gap-4 ">
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             የወላጅ ሙሉ ስም
           </label>
           <input
@@ -20,10 +20,7 @@ const ParentRegistration = () => {
         </div>
 
         <div className="py-10">
-          <label
-            htmlFor="childName"
-            className="ml-36 text-3xl  text-green-600 "
-          >
+          <label htmlFor="childName" className="ml-14 text-lg  text-green-600 ">
             ዕድሜ
           </label>
           <input
@@ -34,21 +31,21 @@ const ParentRegistration = () => {
           />
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className=" text-3xl  text-green-600 ">ጾታ</h1>
+          <h1 className=" text-xl  text-green-600 ">ጾታ</h1>
           <div className="mt-7 flex gap-6">
             <input type="radio" name="gender" id="male" />
-            <label for="male" className=" text-2xl  text-green-600 ">
+            <label for="male" className=" text-lg  text-green-600 ">
               ወንድ
             </label>
             <input type="radio" name="gender" id="female" />
-            <label for="female" className=" text-2xl  text-green-600 ">
+            <label for="female" className=" text-lg  text-green-600 ">
               {" "}
               ሴት
             </label>
           </div>
         </div>
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             ስልክ ቁጥር
           </label>
           <input
@@ -59,7 +56,7 @@ const ParentRegistration = () => {
           />
         </div>
         <div className="pት-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             ኢሜይል
           </label>
           <input
@@ -73,7 +70,7 @@ const ParentRegistration = () => {
       <div className="flex-1 flex justify-center items-center mt-12">
         <Link
           to="/childReg"
-          className="text-5xl px-10 rounded-3xl text-white bg-orange-500 "
+          className="text-5xl px-10 rounded-xxl text-white bg-orange-500 "
         >
           ይቀጥሉ
         </Link>

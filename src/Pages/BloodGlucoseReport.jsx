@@ -16,7 +16,7 @@ const BloodGlucoseReport = () => {
       </div>
       <div className="flex-1">
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             የጀመረበትን ቀን
           </label>
           <input
@@ -27,7 +27,7 @@ const BloodGlucoseReport = () => {
           />
         </div>
         <div className="py-9">
-          <label htmlFor="childName" className="ml-36 text-3xl text-green-600">
+          <label htmlFor="childName" className="ml-14 text-lg text-green-600">
             የማጠናቀቂያ ቀን
           </label>
           <input
@@ -42,7 +42,7 @@ const BloodGlucoseReport = () => {
         <div className="flex  justify-center items-center mx-auto ">
           <div className="mt-7 ">
             <button
-              className="items-center bg-green-500 text-5xl px-10 rounded-3xl text-white mx-[120px]"
+              className="items-center bg-green-500 text-2xl px-10 rounded-3xl text-white mx-[100px]"
               onClick={togglePopup}
             >
               ሪፖርት ያግኙ

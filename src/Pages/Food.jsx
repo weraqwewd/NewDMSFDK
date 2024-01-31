@@ -36,15 +36,15 @@ const Food = () => {
         </h1>
       </div>
       <div className="flex-1 mt-10 ">
-        <p className="text-green-500 text-4xl ml-5">የካርቦሃይድሬት ብዛት</p>
-        <div className="bg-gray-400 w-[500px] h-[100px] mx-auto mt-4 text-4xl text-white text-center rounded-xl">
+        <p className="text-green-500 text-2xl ml-5">የካርቦሃይድሬት ብዛት</p>
+        <div className="bg-gray-400 w-[250px] h-[100px] mx-auto mt-4 text-lg text-white text-center rounded-xl">
           {foodItem.carbContent} ኪሎ ካሎሪ
         </div>
       </div>
 
       <div className="flex-1 mt-10">
-        <p className="text-green-500 text-4xl ml-5">ግብዓቶች</p>
-        <div className="bg-gray-400 w-[500px] h-[100px] mx-auto mt-4 text-white text-3xl text-center rounded-xl">
+        <p className="text-green-500 text-2xl ml-5">ግብዓቶች</p>
+        <div className="bg-gray-400 w-[250px] h-[100px] mx-auto mt-4 text-white text-lg text-center rounded-xl">
           {foodItem.ingredient}
         </div>
       </div>

@@ -16,7 +16,7 @@ const ReportPopup = ({ onClose, report }) => {
             <MdCancelPresentation
               onClick={onClose}
               size={45}
-              className="absolute top-0 right-[-70px] text-white hover:transform hover:translate-3/4 cursor-pointer"
+              className="absolute top-0 right-[-30px] text-white hover:transform hover:translate-3/4 cursor-pointer"
             />
           </div>
         </div>
